@@ -1,0 +1,43 @@
+.barra__navegacao {
+    background-color: var(--cor-fundoprincipal);
+    position: fixed;
+    bottom: 0%;
+    height: 74px;
+    width: 100%;
+}
+
+ 
+.barra__navegacao__itens {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    
+}
+
+.barra__navegacao__itens li {
+    align-self: center;
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor-fontesecundaria);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.navegacao__itens {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 25px;
+    height: 18px;
+}
+
+.navegacao__itens :hover {
+    background-color: var(--cor-azul);
+    transition: all 1s ease-in-out;
+}
+
+

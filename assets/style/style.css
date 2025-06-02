@@ -1,0 +1,65 @@
+@import url("./cardConsultas.css");
+@import url("./menu.css");
+
+
+:root {
+    --cor-fundoprincipal: rgba(248, 244, 255, 1);
+    --cor-fundosecundaria: #ffff;
+    --cor-amarelo: rgba(255, 176, 80, 1);
+    --cor-azul: rgba(72, 148, 255, 1);
+    --fonte-principal: 'montserrat';
+    --cor-fonteprincipal: rgba(70, 70, 70, 1);
+    --cor-fontesecundaria: rgba(163, 163, 163, 1);
+    --cor-outrobranco: rgba(255, 255, 255, 1);
+    --fonte-audio: rgba(70, 70, 70, 1);
+}
+
+body {
+    background-color: var(--cor-fundoprincipal);
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--fonte-principal);
+    color: var(--cor-fonteprincipal);
+}
+
+/* CABECALHO */
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.cabecalho__nav {
+    background-color: var(--cor-fundosecundaria);
+    display: flex;
+    padding: 1em;
+    gap: 70%;
+}
+
+
+.medica {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.nome__medica {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+.consultas {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cor-fontesecundaria);
+}
+
+.dia {
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 5%;
+}
+

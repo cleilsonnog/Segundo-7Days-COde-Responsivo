@@ -93,3 +93,34 @@ a {
     margin-left: 5%;
     
 }
+
+
+
+@media (min-width: 720px) {
+   .consultas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px 0 15px 0;
+    margin: 15px 15px;
+
+   }
+
+   .consultas p {
+    grid-column: 1/-1;
+   }
+
+   .container__cabecalho {
+    display: none;
+   }
+
+   .outro__dia {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--cor-fonteprincipal);
+    font-family: var(--fonteprincipal);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+   }
+   
+}

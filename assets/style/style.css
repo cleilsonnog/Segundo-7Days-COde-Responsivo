@@ -7,7 +7,7 @@
     --cor-fundosecundaria: #ffff;
     --cor-amarelo: rgba(255, 176, 80, 1);
     --cor-azul: rgba(72, 148, 255, 1);
-    --fonte-principal: 'montserrat';
+    --fonte-principal: 'montserrat', sans-serif;
     --cor-fonteprincipal: rgba(70, 70, 70, 1);
     --cor-fontesecundaria: rgba(163, 163, 163, 1);
     --cor-outrobranco: rgba(255, 255, 255, 1);
@@ -24,10 +24,7 @@ body {
 
 /* CABECALHO */
 
-p {
-    font-size: 14px;
-    font-weight: 400;
-}
+
 
 .cabecalho__nav {
     background-color: var(--cor-fundosecundaria);
@@ -57,9 +54,4 @@ p {
     color: var(--cor-fontesecundaria);
 }
 
-.dia {
-    font-size: 16px;
-    font-weight: 700;
-    margin-left: 5%;
-}
 

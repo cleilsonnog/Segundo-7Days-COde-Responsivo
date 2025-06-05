@@ -10,8 +10,6 @@
 .barra__navegacao__itens {
     display: flex;
     justify-content: space-evenly;
-    height: 100%;
-    
 }
 
 .barra__navegacao__itens li {
@@ -40,4 +38,29 @@ a {
     transition: all 1s ease-in-out;
 }
 
+@media (min-width: 1440px) {
+    .barra__navegacao {
+    background-color: #ffff;
+    position: fixed;
+    left: 0%;
+    height: 100%;
+    width: 10%;
+  }
+
+  .medica {
+    margin-left: 150px;
+  }
+
+  .consultas {
+    margin-left: 150px;
+  }
+
+  .barra__navegacao__itens {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    margin-top: 35px;
+    }
+
+}
 

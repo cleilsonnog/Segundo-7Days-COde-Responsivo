@@ -27,12 +27,12 @@
             <p class="consultas__quantidade">Mais 4 consultas hoje</p>
         </div>
     </div>
-    
+
 
     <section class="consultas">
-        <p class="outro__dia"><strong >Hoje</strong></p>
+        <p class="outro__dia"><strong>Hoje</strong></p>
 
-                 <!------------card 1----------------->
+        <!------------card 1----------------->
 
         <div class="container__consultas">
 
@@ -64,7 +64,7 @@
             </div>
         </div>
 
-                    <!------------------card 2------------------>
+        <!------------------card 2------------------>
 
         <div class="container__consultas">
 
@@ -96,7 +96,7 @@
         </div>
 
 
-                <!-------------card 3------------------->
+        <!-------------card 3------------------->
 
         <div class="container__consultas">
 
@@ -128,7 +128,7 @@
             </div>
         </div>
 
-                   <!-----------card 4--------------->
+        <!-----------card 4--------------->
 
         <div class="container__consultas">
 
@@ -159,7 +159,7 @@
             </div>
         </div>
 
-            <!----------card 5---------------->
+        <!----------card 5---------------->
 
         <div class="container__consultas">
 
@@ -191,7 +191,7 @@
             </div>
         </div>
 
-              <!-----------card 6---------------->
+        <!-----------card 6---------------->
 
         <div class="container__consultas">
 
@@ -222,9 +222,9 @@
                 </div>
             </div>
         </div>
-                <p class="outro__dia">Amanhã</p>
+        <p class="outro__dia">Amanhã</p>
 
-                  <!-----------card 7------------------>
+        <!-----------card 7------------------>
 
         <div class="container__consultas">
 
@@ -253,9 +253,9 @@
                     <a href="#" class="botao__endereco">Ver endereço</a>
                 </div>
             </div>
-        </div>      
+        </div>
 
-               <!-----------card 8----------------->
+        <!-----------card 8----------------->
 
         <div class="container__consultas">
 
@@ -286,7 +286,7 @@
             </div>
         </div>
 
-                 <!---------------card 9----------------------->
+        <!---------------card 9----------------------->
 
         <div class="container__consultas">
 
@@ -318,7 +318,7 @@
             </div>
         </div>
 
-                  <!---------------card 10--------------------->
+        <!---------------card 10--------------------->
 
         <div class="container__consultas">
 
@@ -350,8 +350,8 @@
             </div>
         </div>
 
-                <p class="outro__dia">Quarta-feira</p>
-                  <!---------------card 11--------------------->
+        <p class="outro__dia">Quarta-feira</p>
+        <!---------------card 11--------------------->
 
         <div class="container__consultas">
 
@@ -381,8 +381,34 @@
                 </div>
             </div>
         </div>
-     </section>
-
+    </section>
+    
+    <section class="formulario">
+        <h2 class="formulario__titulo"><strong>Agende sua consulta</strong></h2>
+        <ul class="formulario__cadastro">
+            <li class="formulario__cadastro__item">
+               <label for="nome">Nome</label>
+               <input required type="text">
+            </li>
+            <li class="formulario__cadastro__item">
+                <label for="tipo__consulta">Tipo consulta</label>
+                <input required type="text">  
+            </li>
+            <li class="formulario__cadastro__item-data">
+                <label for="date">Data</label>
+                 <input required type="date">
+            </li>
+            <li class="formulario__cadastro__item-hora">
+                <label for="time">Hora</label>
+                <input required type="time">
+            </li>
+            <li class="formulario__cadastro__item-observacao">
+                <label for="observa">Observações</label>
+                <textarea rows="6" style="width: 26em;" name="observa" id="observa">pp</textarea>
+            </li>
+        </ul>
+        <button class="botao" type="submit" onsubmit="">Cadastrar</button>
+    </section>
 
     <aside class="barra__navegacao">
         <ul class="barra__navegacao__itens">
@@ -403,6 +429,29 @@
             </li>
         </ul>
     </aside>
+
+    <div class="botao__flutuante">
+
+        <button class="botao__flutuante-cadastro btn-primario">
+            <span></span>
+        </button>
+        <ul class="botao__flutuante-opcoes">
+
+            <li>
+                <span>
+                    Nova consulta na casa do cliente
+                </span>
+                <button class="botao__flutuante-item btn-primario local"><span class="local"></span></button>
+            </li>
+            <li>
+                <span>
+                    Nova consulta por vídeo
+                </span>
+                <button class="botao__flutuante-item btn-primario"><span class="remoto"></span></button>
+            </li>
+
+        </ul>
+    </div>
 
 
 </body>

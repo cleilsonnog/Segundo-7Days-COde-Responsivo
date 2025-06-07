@@ -1,6 +1,7 @@
 @import url("./cardConsultas.css");
 @import url("./menu.css");
-
+@import url("./botao-flutante.css");
+@import url("./formulario.css");
 
 :root {
     --cor-fundoprincipal: rgba(248, 244, 255, 1);
@@ -12,6 +13,8 @@
     --cor-fontesecundaria: rgba(163, 163, 163, 1);
     --cor-outrobranco: rgba(255, 255, 255, 1);
     --fonte-audio: rgba(70, 70, 70, 1);
+
+    --cor-primaria: #4894FF;
 }
 
 body {
@@ -20,6 +23,10 @@ body {
     font-weight: 500;
     font-family: var(--fonte-principal);
     color: var(--cor-fonteprincipal);
+}
+
+button {
+  cursor: pointer;
 }
 
 /* CABECALHO */

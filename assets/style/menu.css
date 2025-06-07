@@ -38,6 +38,12 @@ a {
     transition: all 1s ease-in-out;
 }
 
+.btn-primario{
+  border: none;
+  background: var(--cor-primaria);
+  color: var(--cor-fundoprincipal);
+}
+
 @media (min-width: 1440px) {
     .barra__navegacao {
     background-color: #ffff;
